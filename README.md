@@ -19,6 +19,33 @@ Below is a demonstration of the working product:
 
 ![Insurance Premium Prediction API Demo](assets/demo.gif)
 
+## Docker Hub
+
+You can pull the pre-built Docker image from Docker Hub:
+
+[https://hub.docker.com/r/anujjainbatu/insurance-premium-api](https://hub.docker.com/r/anujjainbatu/insurance-premium-api)
+
+```bash
+docker pull anujjainbatu/insurance-premium-api
+```
+
+## API Link
+
+Once running (locally or via Docker), access the API at:
+
+- Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
+- Health check: [http://localhost:8000/health](http://localhost:8000/health)
+
+## Public API Endpoint
+
+If you want to use this API in your own application, you can access the deployed instance at:
+
+- Base URL: [http://51.20.55.205:8000/](http://51.20.55.205:8000/)
+- Swagger UI: [http://51.20.55.205:8000/docs](http://51.20.55.205:8000/docs)
+- Health check: [http://51.20.55.205:8000/health](http://51.20.55.205:8000/health)
+
+Feel free to integrate this endpoint directly into your projects for insurance premium
+
 ## Project Structure
 
 ```
